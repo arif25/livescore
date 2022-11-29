@@ -1,0 +1,61 @@
+.secRightpanel  {   
+    .bxvoting {
+        margin-bottom: 12px;
+        background: #fff;
+        padding: 10px;
+        border-radius: 4px;
+    }
+    .titlevoting {
+        text-align: center;
+        font-size: 12px;
+        font-weight: bold;
+    }
+    .teamflagsnames {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 9px;
+        text-align: center;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    .votingteamflag {
+        img {
+            background: #fff;
+            box-shadow: 0 0px 3px #ccc;
+            padding: 3px;
+            border-radius: 2px;
+            width: 42px;
+        }
+    }
+    .votingteamvs {
+        margin-top: 4px;
+    }
+    .votefor {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0px;
+        flex-wrap: wrap;
+        font-weight: bold;
+        text-transform: uppercase;
+        .voteforteam {            
+            border-radius: 15px;
+            box-shadow: 0 0px 1px #ccc;
+            padding: 4px 9px;
+            font-size: 10px;
+            width: 86%;
+            margin-top: 5px;
+            display: flex;
+            justify-content: space-between;
+            border: 1px solid #b0b8bb;
+            color: #57747c;
+            background: #ffffff;
+            &:hover {
+                background-color: rgb(163, 0, 8);
+                border: 1px solid rgb(163, 0, 8);
+                color: #fff;
+                cursor: pointer;
+            }
+        }
+    }
+}

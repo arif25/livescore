@@ -1,0 +1,46 @@
+
+    .popuplogin {
+        display: none;
+        .innerfrombx {
+            display: flex;
+            flex-wrap: wrap;
+            gap:28px;
+            input, button {
+                width: 100%;
+                padding: 12px;
+                border-radius: 5px;
+                border: 1px solid #ccc;
+            }
+            input { 
+                &:focus-visible {
+                    outline: -webkit-focus-ring-color auto 0px;
+                }
+            }
+            button {
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #fff;
+                background-color: rgb(74 98 114);
+            }
+        }
+        .forgotpass {
+            text-align: center;
+            margin: 36px 0 0 0;
+        }
+    }
+    .popuplogin {
+        .bodypopup 
+        {
+            padding: 5px 49px 50px;            
+        }
+        .titlebody {
+            margin-bottom: 26px;
+            p{
+                font-size: 12px;
+            }
+            h5{
+                margin-bottom: 6px;
+                font-size: 14px;
+            }
+        }
+    }

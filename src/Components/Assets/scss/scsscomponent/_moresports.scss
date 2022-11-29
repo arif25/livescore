@@ -1,0 +1,46 @@
+.popupmoresports {
+    .iconmoresports {
+        width: 15px;
+        flex: none;
+        display: flex;
+        align-items: center;
+        img {
+            width: 100%;
+        }
+    }
+    display: none;
+    .asipopup{ 
+        .bodypopup {
+            ul { 
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                flex-wrap: wrap;
+                max-height: 300px;
+                li {
+                    width: 175px;
+                    gap: 8px;
+                    align-items: center;
+                    margin-bottom: 28px;
+                    justify-content: flex-start;
+                }
+            }
+        }
+    }
+    .contentmoresports {
+        font-weight: bold;
+        text-transform: uppercase;
+        display: flex;
+        gap: 2px;
+        font-size: 11px;align-items: center;
+    }
+    .activemoresports {
+        background: #f5f5f5;
+        padding: 2px 4px;
+        font-size: 10px;
+        border-radius: 3px;
+        font-weight: bold;
+        color: #787878;
+        
+    }
+}

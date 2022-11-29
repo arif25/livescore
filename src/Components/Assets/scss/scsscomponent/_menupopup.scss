@@ -1,0 +1,29 @@
+.popupMenu {
+    display: none;
+}
+.menulisticoncontent {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    img {
+        width: 14px;
+    }
+    p {
+        margin: 0;
+    }
+}
+.menulistfuncicon {
+    img {
+        width: 14px;
+    }
+}
+.asipopup .titlebody{
+    ul li {
+        margin-bottom: 33px;
+    }
+    .menulisticoncontent{
+        p {
+            margin: 0;
+        }
+    }
+}

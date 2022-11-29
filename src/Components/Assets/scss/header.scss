@@ -1,0 +1,95 @@
+@import '../scss/scsscomponent/searchpopup.scss';
+@import '../scss/scsscomponent/login';
+@import '../scss//scsscomponent/menupopup';
+@import '../scss/scsscomponent/moresports';
+
+header {
+    padding: 20px 0 0px;
+    background: #fff;
+    // position: sticky;
+    // top: 0;
+    flex-shrink: 0;
+    z-index: 9;
+    .logobuttons {
+        display: flex;
+        justify-content: space-between;
+        .headerlogo {
+            display: flex;
+            align-items: center;
+        }
+        .buttonhumberger {
+            ul{
+                display: flex;
+                gap: 10px;
+                li{
+                    color: #000;
+                    a{
+                        padding: 10px 16px;
+                        background: #e7e7e7;
+                        border-radius: 5px;
+                        box-sizing: border-box;
+                        text-transform: uppercase;
+                        font-weight: 600;
+                        display: flex;
+                        align-items: center;
+                        gap: 5px;
+                        height: 36px;
+                        p {
+                            font-size: 13px;
+                            font-weight: bold;
+                        }
+                        img {
+                            width: 15px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .bxnav {
+        border-top: 1px solid #c7c7c7;
+        border-bottom: 1px solid #c7c7c7;
+        padding: 12px 0 10px;
+        margin-top: 20px;
+        background: #dddddd;
+        nav {
+            display: flex;
+            justify-content: space-between;
+            ul{
+                display: flex;
+                gap: 16px;
+                li{
+                    text-transform: uppercase;
+                    font-weight: bold;
+                    display: flex;
+                    gap: 3px;
+                    color: #000;
+                    font-size: 13px;
+                    .iconnav {
+                        width: 14px;
+                        margin-top: 2px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .moresports {
+                text-transform: uppercase;
+                font-weight: bold;
+                color: #000;
+                display: flex;
+                align-items: center;
+                gap: 8px;
+                font-size: 13px;
+                cursor: pointer;
+                img {
+                    width: 12px;
+                }
+            }
+        }
+    }
+    .popupcomponents, .popupMenu {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+$colorblack : #000;
+$colorwhite : #fff;
+
+.sec-topheader {
+    background-color: $colorblack;
+    padding: 6px;
+    p {
+        color: $colorwhite;
+        font-size: 12px;
+        font-weight: 400;
+        margin: 0;
+        white-space: nowrap;
+
+    }
+}

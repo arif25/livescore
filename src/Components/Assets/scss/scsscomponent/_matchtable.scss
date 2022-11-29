@@ -1,0 +1,104 @@
+.tableMatch {
+    margin-top: 16px;
+    .titleMatchTable {
+        background: #ededed;
+        padding: 7px 16px;
+        border-radius: 4px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .matchTablebody {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 16px;
+        .matchtablerow {
+            font-size: 12px;
+            align-items: center;
+            display: flex;    
+            width: 100%;
+            // justify-content: space-around;
+            border-bottom: 1px solid #e1e1e1;
+            padding: 6px 0;
+            gap: 20px;
+        }
+    }
+}
+.seccenterpanel {
+    .iconnav {
+        width: 16px;
+        margin-top: 2px;
+        img{
+            width: 100%;
+        }
+    }
+}
+.headingGame {
+    background: #084b7a;
+    color: #fff;
+    padding: 7px 10px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 7px;
+    img {
+        width: 16px;
+    }
+}
+.starflagcountry {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    span 
+    {
+        font-weight: 600;
+        font-size: 13px;
+    }
+}
+.titlestanding {
+    display: flex;
+    gap:5px;
+    align-items: center;
+    font-size: 12px;
+    img{
+        width: 12px;
+    }
+}
+.matchteamone {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 4px 0;
+    img {
+        width: 15px;
+    }
+}
+.matchtime {
+    width: 120px;
+}
+.matchaudiolivestreaming {
+    margin-left: auto;
+    width: 70px;
+    display: flex;
+    gap: 11px;
+    align-items: center;
+}
+.matchteams {
+    width: 30%;
+}
+.matchresult {
+    font-weight: bold;
+}
+.matchaudiostreaming {
+    width: 18px;    
+    display: flex;
+    align-items: center;
+    img {
+        width: 100%; 
+    }
+    a {
+        padding: 4px 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+    }
+} 

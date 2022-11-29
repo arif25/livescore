@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { createBrowserRouter, RouterProvider, Route, BrowserRouter, Routes, } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import Home from './Components/Home';
+import Favorites from './Components/favorites/Favorites';
+import Cricket from "./Components/Assets/cricket/Cricket";
+import Football from "./Components/Assets/Football/Football";
+import Tennis from "./Components/Assets/tennis/Tennis";
+import Kabaddi from "./Components/Assets/Kabaddi/Kabaddi";
+import Tournamentitem from "./Components/Assets/Football/tournament/Tournamentitem";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return (   
+    <BrowserRouter>
+       <Routes>
+         <Route path="/" element={<Home />} />
+         <Route path="/favorites" element={<Favorites />} />
+         <Route path="/cricket" element={<Cricket />} />
+         <Route path="/football" element={<Football />} />
+         <Route path="/tennis" element={<Tennis />} />
+         <Route path="/kabaddi" element={<Kabaddi />} />
+         <Route path="/worldcup/football" element={<Tournamentitem />} />
+       </Routes>
+    </BrowserRouter>   
   );
 }
 
 export default App;
+
+
+
