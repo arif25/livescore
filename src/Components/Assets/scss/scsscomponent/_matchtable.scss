@@ -102,3 +102,9 @@
         border-radius: 4px;
     }
 } 
+.matchtablerow_archive {
+    justify-content: space-between;
+    .matchteamone {
+        min-width: 120px;
+    }
+}

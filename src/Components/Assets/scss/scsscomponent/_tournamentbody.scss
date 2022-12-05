@@ -42,6 +42,26 @@
             font-weight: bold;
             font-size: 12px;
             color: rgb(77, 77, 77);
+            a{
+                &.active {
+                    color: #f00;
+                }
+            }
         }
     }
+}
+.secsummary {
+    .title {
+        font-size: 18px;
+        font-weight: bold;
+    }
+}
+.tourSummary {
+    margin-top: 12px;
+}
+.winteam {
+    font-weight: bold;
+}
+.bxmatchdetails {
+    margin-bottom: 12px;
 }

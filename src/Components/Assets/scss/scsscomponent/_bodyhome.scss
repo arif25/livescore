@@ -44,6 +44,9 @@ body {background-color: #f1f1f1;}
                     a {
                         display: flex;
                         gap: 4px;
+                        &.active {
+                            color: #f00;
+                        }
                     }
                 }
             }

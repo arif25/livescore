@@ -4,20 +4,26 @@ import Topheader from "../../../Topheader";
 import Ad970_90 from "../../../ads/Ad970_90";
 import Ad160_600 from "../../../ads/Ad160_600";
 import Header from "../../../Header";
+import Tournamentbody from "./Tournamentbody";
 import Footer from "../../../Footer";
-import Tournamentbody from "./Tournamentbody"; 
+import Tournamentresultsbody from "./Tournamentresultsbody";
+import Tournamentfixturesbody from "./Tournamentfixturesbody";
 
-const Worldcupfootball = () => {
-    // summary
-    return (        
-        <section className="secfootball">
+const Tournamentfixtures = () =>{
+    // Results
+    return(
+        <section className="secfootball secresults">
             <Topheader />
             <Ad970_90 />
             <section className="main-wrap">
                 <Ad160_600 />
                 <div className="container">
                     <Header />
-                    <Tournamentbody /> 
+                    {/* <Tournamentbody />  */}
+                    {/* Tournamentbody */}
+                    Tournamentfixturesbody
+                    {/* <Tournamentresultsbody /> */}
+                    <Tournamentfixturesbody />
                 </div>
                 <Ad160_600 />
             </section>
@@ -26,4 +32,4 @@ const Worldcupfootball = () => {
     );
 }
 
-export default Worldcupfootball;
+export default Tournamentfixtures;

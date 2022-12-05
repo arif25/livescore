@@ -19,7 +19,7 @@ const Leftpanel = () => {
                 </div>
                 <ul>
                     <li>
-                        <NavLink to='/worldcup/football' >
+                        <NavLink to='/summary' >
                             <div className="iconnav">
                                 <img src={Flagurope} />
                             </div>

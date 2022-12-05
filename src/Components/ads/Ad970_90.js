@@ -8,7 +8,6 @@ const Ad970_90 = () => {
                 <div className="adouterbox">
                     <div className="adbox ad90">
                         <div className="stickad">
-                            <span>Advertisement</span>
                             <div>
                                 <img src={adimage970} />                                         
                             </div>

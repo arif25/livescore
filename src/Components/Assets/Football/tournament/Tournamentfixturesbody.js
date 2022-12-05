@@ -1,3 +1,4 @@
+
 import React from "react";
 import '../../scss/tabinside.scss';
 import Leftpanel from "../../../Leftpanel";
@@ -9,8 +10,10 @@ import Logoworldcup from '../../images/logoworldcup.png';
 import Staryellow from '../../images/star-yellow.png';
 import Summary from "../../../summary/Summary";
 import { NavLink } from "react-router-dom";
+import Tournamentresultcontent from "../../../summary/Tournamentresultcontent";
+import Tournamentfixturescontent from "../../../summary/Tournamentfixturescontent";
 
-const Tournamentbody = () => {
+const Tournamentfixturesbody = () => {
     return(
         <section className="secbody">
             <div className="innercontainer">
@@ -78,7 +81,9 @@ const Tournamentbody = () => {
                         </div>                      
                     </section>
                     <section className="tourSummary">
-                        <Summary />
+                        {/* <Summary /> */}
+                        {/* <Tournamentresultcontent /> */}
+                        <Tournamentfixturescontent />
                     </section>
                 </div>
                 <div className="rightpanel scrolldesign">
@@ -89,4 +94,4 @@ const Tournamentbody = () => {
     );
 }
 
-export default Tournamentbody;
+export default Tournamentfixturesbody;

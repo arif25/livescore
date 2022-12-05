@@ -22,7 +22,8 @@
                 font-weight: 700;
                 color: #767676;
                 text-transform: uppercase;
-                &.active {
+                cursor: pointer;
+                &.active, &:hover {
                     background-color: #f00;
                     color: #fff;
                 }

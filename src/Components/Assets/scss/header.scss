@@ -65,6 +65,11 @@ header {
                     gap: 3px;
                     color: #000;
                     font-size: 13px;
+                    a{
+                        &.active {
+                            color: #f00;
+                        }
+                    }
                     .iconnav {
                         width: 14px;
                         margin-top: 2px;

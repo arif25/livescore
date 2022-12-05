@@ -1,7 +1,5 @@
 import React from "react";
-// import Ad160 from './Assets/images/ad160.png';
 import Ad160 from '../Assets/images/ad160.png';
-
 
 const Ad160_600 = () => {
     return (

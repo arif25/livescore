@@ -9,8 +9,9 @@ import Logoworldcup from '../../images/logoworldcup.png';
 import Staryellow from '../../images/star-yellow.png';
 import Summary from "../../../summary/Summary";
 import { NavLink } from "react-router-dom";
+import Tournamentresultcontent from "../../../summary/Tournamentresultcontent";
 
-const Tournamentbody = () => {
+const Tournamentresultsbody = () => {
     return(
         <section className="secbody">
             <div className="innercontainer">
@@ -78,7 +79,8 @@ const Tournamentbody = () => {
                         </div>                      
                     </section>
                     <section className="tourSummary">
-                        <Summary />
+                        {/* <Summary /> */}
+                        <Tournamentresultcontent />
                     </section>
                 </div>
                 <div className="rightpanel scrolldesign">
@@ -89,4 +91,4 @@ const Tournamentbody = () => {
     );
 }
 
-export default Tournamentbody;
+export default Tournamentresultsbody;
