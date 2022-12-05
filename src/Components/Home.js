@@ -9,10 +9,15 @@ import './Assets/scss/header.scss';
 import Footer from "./Footer";
 import Ad970and280 from "./ads/Ad970_280";
 import Topheader from "./Topheader";
+import Apifootball from "./summary/Apifootball";
 
 const Home = () => {
     return(
         <>
+        <section className="Apifootball">
+            <Apifootball />
+        </section>
+
             <Topheader />
             <Ad970_90 />
             <section className="main-wrap">
