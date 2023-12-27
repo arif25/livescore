@@ -18,17 +18,17 @@ function App() {
     <BrowserRouter>
        <Routes>
           // <Route path="/" element={<Home />} />
-          <Route path="/favorites" element={<Favorites />} />
-          <Route path="/cricket" element={<Cricket />} />
-          <Route path="/football" element={<Football />} />
-          <Route path="/tennis" element={<Tennis />} />
-          <Route path="/kabaddi" element={<Kabaddi />} />
+          // <Route path="/favorites" element={<Favorites />} />
+          // <Route path="/cricket" element={<Cricket />} />
+          // <Route path="/football" element={<Football />} />
+          // <Route path="/tennis" element={<Tennis />} />
+          // <Route path="/kabaddi" element={<Kabaddi />} />
 
-          <Route path="/summary" element={<Tournamentitem />} />
-          <Route path="/results" element={<Tournamentresults />} />
-          <Route path="/fixtures" element={<Tournamentfixtures />} />
-          <Route path="/standing" element={<Tournamentstanding />} />
-          <Route path="/archive" element={<Tournamentarchive />} />
+          // <Route path="/summary" element={<Tournamentitem />} />
+          // <Route path="/results" element={<Tournamentresults />} />
+          // <Route path="/fixtures" element={<Tournamentfixtures />} />
+          // <Route path="/standing" element={<Tournamentstanding />} />
+          // <Route path="/archive" element={<Tournamentarchive />} />
        </Routes>
     </BrowserRouter>   
   );
